@@ -24,8 +24,8 @@ const Hero: React.FC<HeroProps> = ({ onViewProjects, onContact }) => {
         </Title>
 
         <Subtitle>
-          Desenvolvedor apaixonado por criar soluções completas, do frontend ao
-          backend, com foco em qualidade e experiência do usuário.
+          Conectando empatia e lógica para desenvolver aplicações que fazem a
+          diferença.
         </Subtitle>
 
         <ButtonContainer>

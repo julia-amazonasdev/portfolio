@@ -32,9 +32,25 @@ function App(): JSX.Element {
     scrollToSection("contact");
   };
 
+  const handleScroll = (sectionId: SectionId) => {
+    console.log("Navegando para seção:", sectionId); // para debug
+
+    const element = document.getElementById(sectionId);
+
+    if (element) {
+      // Método 1: Usando scrollIntoView (mais simples)
+      element.scrollIntoView({
+        behavior: "smooth",
+        block: "start",
+      });
+    } else {
+      console.error(`Seção "${sectionId}" não encontrada!`);
+    }
+  };
+
   return (
     <div className="App bg-gray-900 text-white min-h-screen">
-      <Navbar activeSection={activeSection} scrollToSection={scrollToSection} />
+      <Navbar scrollToSection={handleScroll} />
 
       <main className="pt-20">
         {/* Hero Section */}

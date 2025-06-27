@@ -14,10 +14,17 @@ import {
   NavContainer,
   Wrapper,
 } from "./styles";
+import { useScrollSpy } from "../../../hook/useScrollSpy";
 
 // Componente Navbar
-const Navbar: React.FC<NavbarProps> = ({ activeSection, scrollToSection }) => {
+const Navbar: React.FC<NavbarProps> = ({ scrollToSection }) => {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
+
+  const sectionIds = ["home", "about", "frontend", "backend", "contact"];
+  const activeSection = useScrollSpy({
+    sectionIds,
+    offset: 100, // ajuste conforme necessário
+  });
 
   const navItems: NavItem[] = [
     { id: "home", label: "Início", icon: Home },

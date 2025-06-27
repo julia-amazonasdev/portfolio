@@ -62,16 +62,22 @@ const About: React.FC = () => {
         <ContentGrid>
           <TextSection>
             <Description>
-              Sou um desenvolvedor Full Stack especializado em Java, apaixonado
-              por criar aplicações web robustas e escaláveis. Recém-formado em
-              desenvolvimento Full Stack, busco sempre aprender novas
-              tecnologias e aplicar as melhores práticas.
+              Sou graduada em Enfermagem com Pós-Graduação em Saúde da Mulher e
+              atualmente em transição de carreira para a área de tecnologia.
+              Recém-formada em um curso de Full Stack Java, tenho me dedicado
+              intensamente ao desenvolvimento de aplicações web, do front ao
+              backend.
             </Description>
 
             <Description>
-              Minha experiência abrange desde a criação de interfaces modernas e
-              responsivas até o desenvolvimento de APIs REST seguras e
-              eficientes.
+              Minha formação anterior me proporcionou habilidades valiosas em
+              empatia, escuta ativa e comunicação, as quais aplico no
+              desenvolvimento de soluções centradas no usuário. Também possuo
+              experiência profissional com atendimento ao cliente, o que
+              fortalece minha visão de produto e experiência do usuário. Estou
+              pronta para novos desafios e oportunidades como desenvolvedora
+              júnior, com vontade de aprender, crescer e colaborar em projetos
+              reais.
             </Description>
           </TextSection>
 

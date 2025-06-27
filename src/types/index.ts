@@ -12,7 +12,6 @@ export type SectionId = "home" | "about" | "frontend" | "backend" | "contact";
 
 // Tipos para props de componentes
 export interface NavbarProps {
-  activeSection: SectionId;
   scrollToSection: (sectionId: SectionId) => void;
 }
 

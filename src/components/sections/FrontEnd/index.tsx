@@ -38,7 +38,7 @@ const FrontendProjects: React.FC = () => {
   const projects: Project[] = [
     {
       id: 1,
-      title: "E-commerce React",
+      title: "Efood - E-commerce React",
       description:
         "Loja virtual completa com carrinho, pagamento e autenticação",
       image: ecomerce,
@@ -51,25 +51,25 @@ const FrontendProjects: React.FC = () => {
         "Layout responsivo",
       ],
       liveUrl: "https://projeto-final-1-imq9.vercel.app/",
-      githubUrl: "https://github.com/seu-usuario/projeto",
+      githubUrl: "https://github.com/julia-amazonasdev/efood_loja",
     },
     {
       id: 2,
-      title: "Landing Page",
+      title: "Projeto Desfem - Landing Page",
       description: "Landing Page divido em seções com lojinha virtual",
       image: landingpage,
       technologies: ["HTML", "SCSS", "Layout responsivo"],
       liveUrl: "https://projeto-landingpage-nine.vercel.app/",
-      githubUrl: "https://github.com/seu-usuario/projeto2",
+      githubUrl: "https://github.com/julia-amazonasdev/projeto_desfem",
     },
     {
       id: 3,
-      title: "Landing Page Tatuadora",
+      title: "Landing Page para tatuadora",
       description: "Landing Page sobre tatuadora, divido em seçõees",
       image: tatto,
       technologies: ["HTML", "SCSS", "BootStrap", "Layout responsivo"],
       liveUrl: "https://vitoriavasconcelos.vercel.app/",
-      githubUrl: "https://github.com/seu-usuario/projeto2",
+      githubUrl: "https://github.com/julia-amazonasdev/tatto_vitoria",
     },
   ];
 

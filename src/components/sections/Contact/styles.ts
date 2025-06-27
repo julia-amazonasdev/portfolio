@@ -24,10 +24,7 @@ export const Title = styled.h2`
 export const GradientText = styled.span`
   background: linear-gradient(to right, #1f2937, #1f2937)
   background-clip: text;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  color: transparent;
-`;
+  `;
 
 export const Subtitle = styled.p`
   font-size: 1.25rem;
