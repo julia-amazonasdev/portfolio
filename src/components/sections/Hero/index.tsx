@@ -19,8 +19,8 @@ const Hero: React.FC<HeroProps> = ({ onViewProjects, onContact }) => {
     <HeroContainer>
       <HeroContent>
         <Title>
-          Front-End Jr. <br />
-          Back-End Jr. <br /> Full Stack Java Developer <br />
+          Frontend Jr. <br />
+          Backend Jr. <br /> Full Stack Java Developer <br />
         </Title>
 
         <Subtitle>

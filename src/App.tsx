@@ -5,6 +5,10 @@ import Navbar from "./components/layout/Navbar";
 import Footer from "./components/layout/Footer";
 import Hero from "./components/sections/Hero";
 import "./App.css";
+import About from "./components/sections/About";
+import FrontendProjects from "./components/sections/FrontEnd";
+import BackendProjects from "./components/sections/BackEnd";
+import Contact from "./components/sections/Contact";
 
 function App(): JSX.Element {
   const [activeSection, setActiveSection] = useState<SectionId>("home");
@@ -37,27 +41,10 @@ function App(): JSX.Element {
         <div id="home">
           <Hero onViewProjects={handleViewProjects} onContact={handleContact} />
         </div>
-        <div
-          id="about"
-          className="h-screen flex items-center justify-center bg-gray-800"
-        >
-          <h1 className="text-4xl">Seção About</h1>
-        </div>
-        <div
-          id="frontend"
-          className="h-screen flex items-center justify-center"
-        >
-          <h1 className="text-4xl">Seção Frontend</h1>
-        </div>
-        <div
-          id="backend"
-          className="h-screen flex items-center justify-center bg-gray-800"
-        >
-          <h1 className="text-4xl">Seção Backend</h1>
-        </div>
-        <div id="contact" className="h-screen flex items-center justify-center">
-          <h1 className="text-4xl">Seção Contact</h1>
-        </div>
+        <About />
+        <FrontendProjects />
+        <BackendProjects />
+        <Contact />
       </main>
 
       <Footer />

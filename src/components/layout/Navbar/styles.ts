@@ -1,7 +1,5 @@
 import React, { useState } from "react";
 import styled from "styled-components";
-import { User, Code, Server, Phone, Home } from "lucide-react";
-import { NavItem, NavbarProps, SectionId } from "../../../types";
 
 // Styled Components
 export const NavContainer = styled.nav`
@@ -29,9 +27,9 @@ export const Content = styled.div`
 `;
 
 export const Logo = styled.h1`
-  font-size: 24px;
+  font-size: 36px;
   font-weight: 700;
-  background: linear-gradient(90deg, #c084fc, #f472b6);
+  background: linear-gradient(90deg, #e3e3e3, #a8a9ad);
   background-clip: text;
   -webkit-background-clip: text;
   color: transparent;

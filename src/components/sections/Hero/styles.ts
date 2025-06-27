@@ -5,7 +5,7 @@ export const HeroContainer = styled.section`
   display: flex;
   align-items: center;
   justify-content: center;
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  background: linear-gradient(135deg, #764ba2 0%, #1f2937 100%);
   padding: 2rem;
   text-align: center;
 `;
@@ -55,7 +55,7 @@ export const ButtonContainer = styled.div`
 
 export const PrimaryButton = styled.button`
   padding: 1rem 2rem;
-  background: linear-gradient(45deg, #8b5cf6, #ec4899);
+  background: linear-gradient(45deg, #1f2937, #a855f7);
   border: none;
   border-radius: 0.5rem;
   font-weight: 600;

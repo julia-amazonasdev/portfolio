@@ -6,7 +6,7 @@ export const FooterContainer = styled.footer`
   backdrop-filter: blur(12px);
   -webkit-backdrop-filter: blur(12px);
   border-top: 1px solid rgba(255, 255, 255, 0.1);
-  margin-top: 80px;
+  margin-top: 0px;
   position: relative;
 `;
 
@@ -41,7 +41,7 @@ export const Section = styled.div`
 export const Logo = styled.h3`
   font-size: 24px;
   font-weight: 700;
-  background: linear-gradient(90deg, #c084fc, #f472b6);
+  background: linear-gradient(90deg, #e3e3e3, #a8a9ad);
   background-clip: text;
   -webkit-background-clip: text;
   color: transparent;

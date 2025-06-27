@@ -1,5 +1,5 @@
 import React from "react";
-import { Github, Linkedin, Mail, Heart, ArrowUp } from "lucide-react";
+import { Github, Linkedin, Mail, ArrowUp } from "lucide-react";
 import {
   BackToTop,
   BottomSection,
@@ -28,7 +28,7 @@ const Footer: React.FC = () => {
     {
       name: "GitHub",
       icon: Github,
-      url: "https://github.com/juliaamazonas",
+      url: "https://github.com/julia-amazonasdev",
       className: "github",
     },
     {
@@ -40,7 +40,7 @@ const Footer: React.FC = () => {
     {
       name: "Email",
       icon: Mail,
-      url: "mailto:seu@email.com",
+      url: "mailto:julia.amazonasdev@gmail.com",
       className: "email",
     },
   ];
