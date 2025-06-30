@@ -33,13 +33,24 @@ export const Title = styled.h2`
 
 export const ContentGrid = styled.div`
   display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 10rem;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 1rem;
   align-items: center;
 
   @media (max-width: 768px) {
     grid-template-columns: 1fr;
     gap: 2rem;
+  }
+`;
+
+export const Imagem = styled.img`
+  width: 300px;
+  height: 300px;
+  border-radius: 5%;
+
+  @media (max-width: 768px) {
+    display: block;
+    margin: 0 auto;
   }
 `;
 

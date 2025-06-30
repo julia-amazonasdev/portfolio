@@ -11,7 +11,10 @@ import {
   CategoryTitle,
   SkillsContainer,
   SkillTag,
+  Imagem,
 } from "./styles";
+
+import perfil from "../../../assets/images/perfil.jpg";
 
 interface Skills {
   frontend: string[];
@@ -60,6 +63,7 @@ const About: React.FC = () => {
         <Title>Sobre Mim</Title>
 
         <ContentGrid>
+          <Imagem src={perfil} alt="Foto sobre mim" />
           <TextSection>
             <Description>
               Sou graduada em Enfermagem com Pós-Graduação em Saúde da Mulher e
